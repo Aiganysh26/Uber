@@ -1,0 +1,36 @@
+@import url(./css/header.css);
+@import url(./css/hero.css);
+@import url(./css/menu.css);
+@import url(./css/main.css);
+@import url(./css/footer.css);
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 972px) {
+  .container{
+    width: 100%;
+    padding: 0 8px;
+  }
+}
+
+button{
+  background-color: transparent;
+  border: none;
+}
+.btn{
+  width: 62px;
+  height: 27px;
+  font-size: 13px;
+  background-color: #D9D9D9;
+  padding: 6px 19px;
+}
+

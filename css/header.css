@@ -1,0 +1,40 @@
+header{
+  width: 100%;
+}
+.header-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+.logo{
+  width: 119px;
+  height: 13px;
+  background-color: #999999;
+}
+.action{
+  display: flex;
+  align-items: center;
+}
+.action > button:first-child{
+  margin-right: 9px;
+}
+.action > button:nth-child(3){
+  margin: 0 82px 0 9px;
+}
+@media screen and (max-width: 500px) {
+  .actions > button:last-child{
+    display: none;
+  }
+  .action{
+    display: flex;
+  }
+  .action > .btn{
+    width: 62px;
+    height: 27px;
+    margin: 22px 10px 23px 0;
+  }
+  .logo{
+    margin: 29px 51px 30px 8px;
+  }
+}

@@ -1,0 +1,49 @@
+.hero{
+  width: 100%;
+  background-color: #D8D8D8;
+}
+.hero-inner{
+  height: 364px;
+  display: flex;
+  align-items: center;
+}
+.resto-card{
+  background-color: #FFFFFF;
+  width: 389px;
+  height: 204px;
+}
+h1{
+  font-weight: 400;
+  font-size: 36px;
+  margin: 38px 38px 0;
+}
+.info{
+  display: flex;
+  align-items: center;
+}
+.price{
+  width: 176px;
+  margin: 62px 50px 46px 38px;
+}
+.black-box{
+  width: 97px;
+  height: 32px;
+  background-color: #262626;
+  margin: 54px 32px 38px 0;
+}
+@media screen and (max-width: 500px) {
+  .hero-inner{
+    height: 367px;
+  }
+  .resto-card{
+    width: calc(100% - 16px);
+    height: 180px;
+    margin-bottom: -56px;
+    margin-left: 8px;
+  }
+  h1{
+    text-align: center;
+    margin-left: 54px;
+    margin-right: 56px;
+  }
+}
